@@ -25,6 +25,8 @@ body {
   background-color: var(--card-font-color);
   text-align: center;
   height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
 }
 
 .cartão_conteudo h3 {
@@ -36,11 +38,13 @@ body {
   margin: 0.6rem;
   border-radius: 0.6rem;
   font-size: 1vw;
+  backface-visibility: hidden;
 }
 
-.cartao__conteuo p{
+.cartao__canniversaryonteuo p{
 margin-top: 1rem;
 padding: 2rem;
+margin-top: 4rem;
 }
 
 .cartão__conteudo__pergunta p{
@@ -48,11 +52,27 @@ padding: 2rem;
 font-weight: 500;
 }
 
-.cartão__conteudo__reposta p{
+.cartão__conteudo__resposta p{
 color: var(--card-back-color);
 font-weight: 700;
-
 }
+
+.cartão:hover .cartão__conteudo{
+transform: rotateY (180deg);
+}
+
+.cartão__conteudo__pergunta;
+.cartão__conteudo__resposta{
+backface-visibility: hidden;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+.cartão__conteudo__resposta{
+transform: rotateY(180deg);
+}
+
 
 
 footer {
@@ -68,4 +88,4 @@ footer p {
   text-align: center;
   font-size: 0.6rem;
   margin-top: 0.5rem;
-}
+}saveiro surf 2009
