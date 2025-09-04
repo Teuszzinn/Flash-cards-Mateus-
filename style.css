@@ -1,4 +1,4 @@
-:root{
+:root {
   --text-color: #dbe4ef;
   --card-font-color: #144480;
   --card-back-color: #00f4bf;
@@ -12,6 +12,10 @@ body {
 
 #container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem;
+  gap: 3rem;
 }
 
 .cartão {
@@ -31,8 +35,7 @@ body {
 
 .cartão_conteudo h3 {
   color: var(--text-color);
-  border: 1px oli var(--text-color)
-  text-align: left;
+  border: 1px oli var(--text-color) text-align: left;
   padding: 0.5rem;
   position: absolute;
   margin: 0.6rem;
@@ -41,36 +44,37 @@ body {
   backface-visibility: hidden;
 }
 
-.cartao__canniversaryonteuo p{
-margin-top: 1rem;
-padding: 2rem;
-margin-top: 4rem;
+.cartao__canniversaryonteuo p {
+  margin-top: 1rem;
+  padding: 2rem;
+  margin-top: 4rem;
 }
 
-.cartão__conteudo__pergunta p{
- color: var(--text-color);
-font-weight: 500;
+.cartão__conteudo__pergunta p {
+  color: var(--text-color);
+  font-weight: 500;
 }
 
-.cartão__conteudo__resposta p{
-color: var(--card-back-color);
-font-weight: 700;
+.cartão__conteudo__resposta p {
+  color: var(--card-back-color);
+  font-weight: 700;
 }
 
-.cartão:hover .cartão__conteudo{
-transform: rotateY (180deg);
+.cartão:hover .cartão__conteudo {
+  transform: rotateY (180deg);
 }
 
 .cartão__conteudo__pergunta;
-.cartão__conteudo__resposta{
-backface-visibility: hidden;
-position: absolute;
-height: 100%;
-width: 100%;
+
+.cartão__conteudo__resposta {
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-.cartão__conteudo__resposta{
-transform: rotateY(180deg);
+.cartão__conteudo__resposta {
+  transform: rotateY(180deg);
 }
 
 
@@ -88,4 +92,6 @@ footer p {
   text-align: center;
   font-size: 0.6rem;
   margin-top: 0.5rem;
-}saveiro surf 2009
+}
+
+saveiro surf 2009
