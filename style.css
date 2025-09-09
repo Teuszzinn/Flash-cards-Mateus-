@@ -35,7 +35,8 @@ body {
 
 .cartão_conteudo h3 {
   color: var(--text-color);
-  border: 1px oli var(--text-color) text-align: left;
+  border: 1px solid var(--text-color) 
+  text-align: left;
   padding: 0.5rem;
   position: absolute;
   margin: 0.6rem;
@@ -44,7 +45,7 @@ body {
   backface-visibility: hidden;
 }
 
-.cartao__canniversaryonteuo p {
+.cartao__conteudo p {
   margin-top: 1rem;
   padding: 2rem;
   margin-top: 4rem;
