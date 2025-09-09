@@ -22,7 +22,7 @@ body {
   margin: 1rem 1rem;
   height: 20rem;
   flex-grow: 1;
-  flex-basis: (33% - 6rem);
+  flex-basis: calc(33% - 6rem);
 }
 
 .cartão_conteudo {
@@ -65,8 +65,7 @@ body {
   transform: rotateY (180deg);
 }
 
-.cartão__conteudo__pergunta;
-
+.cartão__conteudo__pergunta,
 .cartão__conteudo__resposta {
   backface-visibility: hidden;
   position: absolute;
@@ -94,5 +93,3 @@ footer p {
   font-size: 0.6rem;
   margin-top: 0.5rem;
 }
-
-saveiro surf 2009
