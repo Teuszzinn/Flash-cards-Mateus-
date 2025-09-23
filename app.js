@@ -18,9 +18,19 @@ function criaCartao( categoria, pergunta, resposta) {
     
     function viraCartao(){
         respostaEstaVisivel=!respostaEstaVisivel
+        cartao.class.toggle('active',respostaEstaVisivel)
+        
+
     }
+    cartao.addEventListener
+
 
      container.appendChild(cartao)
      
+
+
+
+
+
 
 }
