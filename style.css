@@ -20,14 +20,14 @@ body {
   gap: 3rem;
 }
 
-.cartão {
+.cartao {
   margin: 1rem 1rem;
   height: 20rem;
   flex-grow: 1;
   flex-basis: calc(33% - 6rem);
 }
 
-.cartão_conteudo {
+.cartao_conteudo {
   background-color: var(--card-font-color);
   text-align: center;
   height: 100%;
@@ -35,9 +35,9 @@ body {
   transition: transform 300ms ease-in-out;
 }
 
-.cartão_conteudo h3 {
+.cartao_conteudo h3 {
   color: var(--text-color);
-  border: 1px solid var(--text-color) 
+  border: 1px solid var(--text-color); 
   text-align: left;
   padding: 0.5rem;
   position: absolute;
@@ -54,22 +54,22 @@ body {
   font-size: 3vw;
 }
 
-.cartão__conteudo__pergunta p {
+.cartao__conteudo__pergunta p {
   color: var(--text-color);
   font-weight: 500;
 }
 
-.cartão__conteudo__resposta p {
+.cartao__conteudo__resposta p {
   color: var(--card-back-color);
   font-weight: 700;
 }
 
-.cartão.active .cartão__conteudo {
+.cartao.active .cartão__conteudo {
   transform: rotateY (180deg);
 }
 
-.cartão__conteudo__pergunta,
-.cartão__conteudo__resposta {
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
   backface-visibility: hidden;
   position: absolute;
   height: 100%;
@@ -77,7 +77,7 @@ body {
   box-sizing: border-box;
 }
 
-.cartão__conteudo__resposta {
+.cartao__conteudo__resposta {
   transform: rotateY(180deg);
   background-color: var(--cor-fundo-cartao);
   border: 4px solid var(--cor-da-borda);
