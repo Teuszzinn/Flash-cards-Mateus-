@@ -1,13 +1,13 @@
 :root {
-  --text-color: #dbe4ef;
-  --card-front-color: #144480;
-  --card-back-color: #00f4bf;
-  --cor-da-borda:#1509f5;
-  --cor-fundo-cartao: #ffffff;
+  --text-color: #ff0505d8;
+  --card-front-color: #ff000000;
+  --card-back-color: #ffffff;
+  --cor-da-borda: #2ccc17;
+  --cor-fundo-cartao: #37ff37;
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(0, 0, 0);
   font-family: "Bai Jamjuree", sans-serif;
 }
 
@@ -96,4 +96,26 @@ footer p {
   text-align: center;
   font-size: 1rem;
   margin-top: 0.5rem;
+}
+
+@media (max-widtb: 560px)
+}
+
+  {
+  bory {
+    background-color: rgb(251, 255, 20);
+  }
+
+  .cartao {
+    flex: 1 0 calc(100% - 1rem);
+  }
+
+  .cartao__conteudo h3 {
+    font-size: 3vw;
+  }
+
+  .cartao__conteudo p {
+    font-size: 3.8vw;
+  }
+
 }
